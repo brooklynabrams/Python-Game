@@ -18,5 +18,8 @@ class Enemy:
     def walk_forward(self):
         print(f"{self.__type_of_enemy} moves closer to you.")
 
+    def special_attack(self):
+        print('Enemy has no special attack')
+
     def attack(self):
         print(f"{self.__type_of_enemy} attacks for {self.damage_points} damage.")
